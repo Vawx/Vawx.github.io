@@ -19,7 +19,6 @@ $( document ).ready( function( ) {
         valueList.append( '<li>' + result + '</li>' );
       }
     }
-    
     event.preventDefault( );
   });
 });
