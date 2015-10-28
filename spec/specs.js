@@ -12,7 +12,7 @@ describe( 'pingPong', function( )
     expect( pingPong( 5 ) ).to.equal( 'pong' );
   });
 
-  it( "Stays value if not divisble by 3, 5, or 15.", function( ) {
+  it( "Is same value if not divisble by 3, 5, or 15.", function( ) {
     expect( pingPong( 14 ) ).to.equal( 14 );
   });
 });
